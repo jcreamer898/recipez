@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Import recipes from cooking sites to your cookbook",
   "main": "./src/index.ts",
-  "bin": "./bin/recipez.sh",
+  "bin": "./bin/recipez.js",
   "keywords": [
     "recipe",
     "importer",
