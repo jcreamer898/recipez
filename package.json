@@ -12,7 +12,7 @@
     "eating"
   ],
   "scripts": {
-    "start": "./bin/recipez.sh",
+    "start": "./bin/recipez.js",
     "start:dev": "babel-node-ts ./src",
     "build": "babel -x .ts -d dist src",
     "dev": "npm run build --watch",
