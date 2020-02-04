@@ -1,6 +1,6 @@
 {
   "name": "recipez",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Import recipes from cooking sites to your cookbook",
   "main": "./src/index.ts",
   "bin": "./bin/recipez.js",
