@@ -2,8 +2,16 @@
   "name": "recipez",
   "version": "0.2.0",
   "description": "Import recipes from cooking sites to your cookbook",
-  "main": "./src/index.ts",
+  "main": "./dist/index.ts",
   "bin": "./bin/recipez.js",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcreamer898/recipez"
+  },
   "keywords": [
     "recipe",
     "importer",
@@ -19,7 +27,7 @@
     "typecheck": "tsc --noEmit"
   },
   "author": "Jonathan Creamer",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "colors": "^1.4.0",
