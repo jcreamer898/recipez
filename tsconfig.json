@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "target": "ES2015",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "node"
+    },
+    "include": ["src"]
+}
