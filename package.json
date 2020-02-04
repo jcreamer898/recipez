@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "start": "./bin/recipez.js",
-    "start:dev": "babel-node-ts ./src",
+    "start:dev": "NODE_ENV=development ./bin/recipez.js",
     "build": "babel -x .ts -d dist src",
     "dev": "npm run build -- --watch",
     "typecheck": "tsc --noEmit"
@@ -29,6 +29,7 @@
   "author": "Jonathan Creamer",
   "license": "MIT",
   "dependencies": {
+    "@babel/register": "^7.8.3",
     "cheerio": "^1.0.0-rc.3",
     "colors": "^1.4.0",
     "marked": "^0.8.0",
