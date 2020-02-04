@@ -23,7 +23,7 @@
     "start": "./bin/recipez.js",
     "start:dev": "babel-node-ts ./src",
     "build": "babel -x .ts -d dist src",
-    "dev": "npm run build --watch",
+    "dev": "npm run build -- --watch",
     "typecheck": "tsc --noEmit"
   },
   "author": "Jonathan Creamer",
